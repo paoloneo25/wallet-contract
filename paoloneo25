@@ -1,0 +1,26 @@
+signature: 0cbdad47a3dccba55e04470be6211469d240a898bfebc41559c82c2caba80526ae6c372e662d9c9d2c04eae3def18fa532ee9305e8d7c71de65740921c04a000
+subwallet_id: 698983191
+valid_until: 4294967295
+seqno: 0
+op: 0
+payload:
+  - mode: 3
+    message:
+      sum_type: MessageInternal
+      message_internal:
+        ihr_disabled: true
+        bounce: true
+        bounced: false
+        src: ""
+        dest: 0:f99b14600ae44d2f12b178e8c6eabd78892ae82c5e45b6898f9deb7eb203f9c4
+        value:
+          grams: "1833573219"
+          other: {}
+        ihr_fee: "0"
+        fwd_fee: "0"
+        created_lt: 0
+        created_at: 0
+        init: null
+        body:
+          is_right: true
+          value: {}
